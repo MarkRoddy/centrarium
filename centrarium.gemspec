@@ -7,5 +7,5 @@ Gem::Specification.new do |s|
   s.description = "Simple yet classy theme for your Jekyll website or blog"
   s.license     = 'MIT'
 
-  s.files = `git ls-files _sass _layouts _includes`.split("\n")
+  s.files = `git ls-files index.html _sass _layouts _includes assets css js`.split("\n")
 end
