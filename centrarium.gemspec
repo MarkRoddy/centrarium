@@ -8,4 +8,8 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
 
   s.files = `git ls-files index.html _sass _layouts _includes assets css js`.split("\n")
+  s.add_runtime_dependency 'jekyll'
+  s.add_runtime_dependency 'jekyll-archives'
+  s.add_runtime_dependency 'jekyll-sitemap'
+  s.add_runtime_dependency 'jekyll-paginate'
 end
